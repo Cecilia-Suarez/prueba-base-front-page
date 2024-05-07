@@ -3,7 +3,7 @@ import React, { useState }from 'react'
 const FormProduct = () => {
   const [product, setProduct] = useState({
     name: '',
-    imgUrl: '',
+    imgUrl: [],
     description: ''
   })
 
@@ -27,7 +27,7 @@ const FormProduct = () => {
 
       <input type="text" placeholder='Product name' value={product.name} onChange={(event) => setProduct({...product, name:event.target.value})} />
       <input type="text" placeholder='Description' value={product.description} onChange={(event) => setProduct({...product, description:event.target.value})} />
-      <button>Add Product</button>
+      <button type='sumbit'>Add Product</button>
     </form>
   )
 }

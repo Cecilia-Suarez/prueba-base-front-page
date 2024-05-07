@@ -19,4 +19,18 @@ header, footer{
     align-items: center;
 }
 
+header{
+    position: sticky;
+    top: 0;
+}
+
+@media (max-width: 600px){
+    header{
+        flex-direction: column;
+    }
+
+    
+
+}
+
 
