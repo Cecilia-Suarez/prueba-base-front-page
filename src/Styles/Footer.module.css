@@ -1,0 +1,19 @@
+.socialIcon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.625rem 0;
+    flex-wrap: wrap;
+}
+
+.socialIcon>img {
+    margin: 0 0.625rem;
+    transition: 0.5s;
+    width: 2rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+}
